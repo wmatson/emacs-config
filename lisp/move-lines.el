@@ -135,3 +135,4 @@ and M-n or M-<down> for moving down."
 (provide 'move-lines)
 
 ;; move-lines.el ends here
+(move-lines-binding)
