@@ -66,13 +66,14 @@ re-downloaded in order to locate PACKAGE."
                 "cfg-cljrefactor.el"
                 "cfg-theme.el"
                 "cfg-smex.el"
+                "cfg-tide.el"
                 "cfg-projectile.el"
                 "move-lines.el"
 		))
   (load (concat dotfiles-lisp-dir file)))
 
 
-  
+
 ;; Custom User configurations:
 ;; If you wish to add additional functionality to your emacs config beyond what is in this setup,
 ;; simply add a file called "user-customizations.el" to your .emacs.d/lisp/ directory. Within that file,
@@ -81,6 +82,9 @@ re-downloaded in order to locate PACKAGE."
 ;; This would be all that is needed for emacs to automatically download the Rainbow Delimiters package
 ;; from Melpa. Additional configs of any kind could be added to this user-customizations.el file.
 ;; If the file is ommitted, no problem, no customizations are run.
+
+(when (not package-archive-contents)
+  (package-refresh-contents))
 
 (when (file-exists-p (concat dotfiles-lisp-dir "user-customizations.el"))
   (load (concat dotfiles-lisp-dir "user-customizations.el")))
