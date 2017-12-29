@@ -6,6 +6,7 @@
   (tide-setup)
   (flycheck-mode +1)
   (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (setq tide-server-max-response-length 1024000)
   (eldoc-mode +1)
   (tide-hl-identifier-mode +1)
   ;; company is an optional dependency. You have to
