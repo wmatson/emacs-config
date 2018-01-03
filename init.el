@@ -98,7 +98,7 @@ re-downloaded in order to locate PACKAGE."
     ("59171e7f5270c0f8c28721bb96ae56d35f38a0d86da35eab4001aebbd99271a8" default)))
  '(package-selected-packages
    (quote
-    (helm-projectile helm clj-refactor company hl-sexp flycheck-clojure parinfer exec-path-from-shell epl))))
+    (less-css-mode json-mode helm-projectile helm clj-refactor company hl-sexp flycheck-clojure parinfer exec-path-from-shell epl))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -1,6 +1,11 @@
 (require-package 'typescript-mode)
 (require-package 'tide)
 
+;;For package.json, primarily
+(require-package 'json-mode)
+;;For .less files
+(require-package 'less-css-mode)
+
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
