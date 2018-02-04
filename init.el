@@ -68,6 +68,7 @@ re-downloaded in order to locate PACKAGE."
                 "cfg-smex.el"
                 "cfg-tide.el"
                 "cfg-projectile.el"
+                "cfg-html.el"
                 "move-lines.el"
 		))
   (load (concat dotfiles-lisp-dir file)))
