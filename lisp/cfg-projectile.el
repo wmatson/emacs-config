@@ -11,5 +11,7 @@
 
 (add-to-list 'projectile-globally-ignored-directories "node_modules")
 (add-to-list 'projectile-globally-ignored-directories "target")
+(add-to-list 'projectile-globally-ignored-directories "resources/public/js/compiled")
+(add-to-list 'projectile-globally-ignored-directories "dist")
 
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
