@@ -69,6 +69,7 @@ re-downloaded in order to locate PACKAGE."
                 "cfg-tide.el"
                 "cfg-projectile.el"
                 "cfg-html.el"
+                "cfg-which-key.el"
                 "move-lines.el"
 		))
   (load (concat dotfiles-lisp-dir file)))
