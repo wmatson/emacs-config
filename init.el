@@ -70,6 +70,7 @@ re-downloaded in order to locate PACKAGE."
                 "cfg-projectile.el"
                 "cfg-html.el"
                 "cfg-which-key.el"
+                "cfg-markdown.el"
                 "move-lines.el"
 		))
   (load (concat dotfiles-lisp-dir file)))
