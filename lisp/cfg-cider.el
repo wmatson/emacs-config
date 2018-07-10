@@ -34,3 +34,10 @@
 ;; company mode for completion
 (add-hook 'cider-repl-mode-hook #'company-mode)
 (add-hook 'cider-mode-hook #'company-mode)
+
+;;format on save
+(defun cider-format-on-save-hook ()
+  (when (eq major-mode 'clojure-mode)
+    (cider-format-buffer)))
+
+(add-hook 'before-save-hook #'cider-format-on-save-hook)
