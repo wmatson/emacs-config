@@ -61,7 +61,6 @@ re-downloaded in order to locate PACKAGE."
 (dolist (file '("cfg-globals.el"
                 "cfg-parinfer.el"
 		"cfg-flycheck.el"
-		"cfg-hlsexp.el"
 		"cfg-cider.el"
                 "cfg-cljrefactor.el"
                 "cfg-theme.el"
@@ -101,7 +100,7 @@ re-downloaded in order to locate PACKAGE."
     ("59171e7f5270c0f8c28721bb96ae56d35f38a0d86da35eab4001aebbd99271a8" default)))
  '(package-selected-packages
    (quote
-    (async atom-one-dark-theme bind-key dash diminish edn helm-core hydra inflections json-reformat json-snatcher multiple-cursors paredit peg pkg-info popup pos-tip projectile queue s seq smex spinner tagedit tide typescript-mode use-package which-key yasnippet cider clojure-mode flycheck flycheck-pos-tip less-css-mode json-mode helm-projectile helm clj-refactor company hl-sexp flycheck-clojure parinfer exec-path-from-shell epl))))
+    (async atom-one-dark-theme bind-key dash diminish edn helm-core hydra inflections json-reformat json-snatcher multiple-cursors paredit peg pkg-info popup pos-tip projectile queue s seq smex spinner tagedit tide typescript-mode use-package which-key yasnippet cider clojure-mode flycheck flycheck-pos-tip less-css-mode json-mode helm-projectile helm clj-refactor company flycheck-clojure parinfer exec-path-from-shell epl))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
