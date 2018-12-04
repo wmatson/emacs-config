@@ -31,6 +31,9 @@
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
 (setq package-user-dir (concat user-emacs-directory "elpa"))
 (add-to-list 'load-path (concat user-emacs-directory "site-lisp"))
 
