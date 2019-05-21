@@ -3,6 +3,7 @@
 (require-package 'flycheck-clojure)
 (require-package 'use-package)
 (require-package 'flycheck-pos-tip)
+(require-package 'cider)
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
@@ -14,6 +15,9 @@
 
 (eval-after-load 'flycheck
   (flycheck-pos-tip-mode))
+
+(eval-after-load 'cider
+  '(flycheck-clojure-setup))
 
 (use-package flycheck-clojure
   :commands (flycheck-clojure-setup)

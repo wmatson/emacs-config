@@ -1,4 +1,5 @@
 ;; clj-refactor and dependencies
+(require-package 'cider)
 (require-package 'clj-refactor)
 
 (add-hook 'clojure-mode-hook

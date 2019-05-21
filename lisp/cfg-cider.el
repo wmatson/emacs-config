@@ -10,7 +10,7 @@
 (setq cider-repl-history-file "~/.emacs.d/cider-history")
 
 ;; nice pretty printing
-(setq cider-repl-use-pretty-printing t)
+;;(setq cider-repl-use-pretty-printing t)
 
 ;; nicer font lock in REPL
 (setq cider-repl-use-clojure-font-lock t)
